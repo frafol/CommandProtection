@@ -41,8 +41,8 @@ public class LuckPermsFix {
 	@Subscribe
 	public void onProxyInitialization(ProxyInitializeEvent event) {
 
-		server.getCommandManager().unregister("/lpv");
-		server.getCommandManager().unregister("/luckpermsvelocity");
+		server.getCommandManager().unregister("lpv");
+		server.getCommandManager().unregister("luckpermsvelocity");
 
 		logger.warn("Disabled LuckPerms commands to prevent an exploit.");
 
