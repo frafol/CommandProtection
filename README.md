@@ -1,0 +1,1 @@
+Disables LuckPermsVelocity commands, prevent spam exploits.
