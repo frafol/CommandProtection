@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>it.frafol</groupId>
-    <artifactId>luckpermsfix</artifactId>
+    <artifactId>commandprotection</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
 
-    <name>LuckPermsVelocityFix</name>
+    <name>CommandProtection</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
