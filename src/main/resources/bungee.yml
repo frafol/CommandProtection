@@ -1,0 +1,5 @@
+name: CommandProtection
+version: ${project.version}
+main: it.frafol.bungeecord.CommandProtection
+author: frafol
+description: "Add Cooldown to commands to prevent proxy exploits."

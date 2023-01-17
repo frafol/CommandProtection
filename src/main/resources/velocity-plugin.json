@@ -1,0 +1,1 @@
+{"id":"commandprotection","name":"CommandProtection","version":"1.0","description":"Add Cooldown to commands to prevent proxy exploits.","authors":["frafol"],"dependencies":[],"main":"it.frafol.velocity.CommandProtection"}
