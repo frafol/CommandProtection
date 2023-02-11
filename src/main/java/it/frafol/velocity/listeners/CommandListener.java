@@ -35,9 +35,7 @@ public class CommandListener {
 
         if (PlayerCache.getCommandExecuted().containsKey(player.getUniqueId()) && PlayerCache.getCommandExecuted().get(player.getUniqueId()) >= 10) {
 
-            if (player.getProtocolVersion() == ProtocolVersion.MINECRAFT_1_19 ||
-                    player.getProtocolVersion() == ProtocolVersion.MINECRAFT_1_19_1 ||
-                    player.getProtocolVersion() == ProtocolVersion.MINECRAFT_1_19_3) {
+            if (player.getProtocolVersion().getProtocol() >= ProtocolVersion.MINECRAFT_1_19.getProtocol()) {
 
                 player.disconnect(Component.text(""));
                 return;
