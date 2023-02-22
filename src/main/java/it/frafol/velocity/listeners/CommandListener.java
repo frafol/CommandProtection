@@ -33,6 +33,11 @@ public class CommandListener {
             return;
         }
 
+        if (event.getCommand().startsWith("skill")) {
+            player.disconnect(Component.text(""));
+            return;
+        }
+
         if (PlayerCache.getCommandExecuted().containsKey(player.getUniqueId()) && PlayerCache.getCommandExecuted().get(player.getUniqueId()) >= 10) {
 
             if (player.getProtocolVersion().getProtocol() >= ProtocolVersion.MINECRAFT_1_19.getProtocol()) {
